@@ -1,0 +1,10 @@
+{
+	"manifest_version": 2,
+	"name": "Endlesss Rifff Discord Autoplayer",
+	"description": "This is a simple extension to allow Endlesss Rifff videos shared on the Discord server to autoplay.",
+	"version": "1.0",
+	"content_scripts": [{
+		"matches": ["https://discord.com/*"],
+		"js": ["Endlesss-Rifff-Discord-Autoplayer.js"]
+	}]
+}
